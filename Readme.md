@@ -7,7 +7,7 @@ Official tool for labeling SpectralWaste dataset with the assistance of SAM ([SA
 
 ```
 python3.8 -m venv "insta_mask"
-git clone ""
+git clone "https://github.com/saracasao/InstaMask.git"
 cd InstaMask
 pip install requirements.txt
 ```
