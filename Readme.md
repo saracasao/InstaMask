@@ -7,7 +7,7 @@ Official tool for labeling SpectralWaste dataset with the assistance of SAM ([SA
 
 ```
 python3.8 -m venv "insta_mask"
-git clone "https://github.com/saracasao/InstaMask.git"
+git clone https://github.com/saracasao/InstaMask.git
 cd InstaMask
 pip install requirements.txt
 ```
@@ -30,7 +30,6 @@ if __name__ == "__main__":
 When _SamSegmenting.py_ file is lunched, the same image appears twice. The labeling process must be made in the left image while the right one is only to help as a refence during the labeling process.
 
 Instructions:
----
 1. To introduce the label of the object press N 
 2. In the terminal the code ask you for the label (should be a number)
 3. Introduce label and press enter
